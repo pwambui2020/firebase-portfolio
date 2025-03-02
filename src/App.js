@@ -2,6 +2,7 @@ import './App.css';
 import SignUp from './components/signUp';
 import SignIn from './components/signIn';
 import ResetPassword from './components/reset_password';
+import Firestore from './components/firestore';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <SignUp />
         <SignIn />
         <ResetPassword />
+        <Firestore />
         
       </header>
     </div>
