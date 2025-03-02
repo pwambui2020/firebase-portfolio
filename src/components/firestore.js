@@ -4,6 +4,8 @@ import { firestore } from "../firebase";
 
 function Firestore() {
     const [projects, setProjects] = useState([]);
+    const [newProjects, setNewProjects] = useState('');
+
 
     const fetchProjects = async () => {
 
@@ -25,7 +27,7 @@ function Firestore() {
         const addData = async () => {
             try {
             await addDoc(collection(firestore, "projects"), {
-                name: "wood work"
+                name: newProjects
               });
               fetchProjects();
             } catch (error) {
@@ -44,7 +46,14 @@ function Firestore() {
                 </li>
             ))}
         </ul>
+        <input
+                type='text'
+                placeholder='Please enter a project'
+                value={newProjects }
+                onChange={ (e) => setNewProjects(e.target.value)}
+            />
         <button onClick={addData}>Add Data</button>
+
         </div>
     )
     
