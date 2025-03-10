@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import {auth} from '../firebase';
+import { auth } from '../firebase';
 
 export default function SignIn() {
 
@@ -53,7 +53,7 @@ export default function SignIn() {
     }
 
     return (
-        <div className='signup'>
+        <div className='signin'>
             <h5>Log In to your Account</h5>
             <div className='signform'>
             <input

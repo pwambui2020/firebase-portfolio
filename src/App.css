@@ -1,17 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #ebb6c6;
@@ -23,22 +10,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.title {
+  margin-bottom: 30%;
+}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .signform {
  
-  color: white;
+  /* color: white; */
   padding: 15px 1px;
   margin: 8px 0;
   border: none;
@@ -48,28 +31,94 @@
 }
 .signup {
   border-radius: 5px;
-  background-color: #c99292;
+  background-color: #bce2f3;
   padding: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 100%;
+  justify-items: center;
 
+  /* display: flex; */
+}
+.signin {
+  border-radius: 5px;
+  background-color: #f2eeee;
+  padding: 20px;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+} */
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   
+
 }
 
-input  {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+li a:hover {
+  background-color: #111;
 }
-
-button {
+nav {
+  background-color: rgb(32, 32, 26);
+  position: fixed;
   width: 100%;
-  border: 1px solid #ccc;
-  background-color: aqua;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  display: inline-block;
+  /* color: yellow; */
+}
+.project-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cards {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 2000px;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+}
+.skills {
+ 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+
+}
+.bio {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+.pro {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
 
 }

@@ -38,8 +38,8 @@ function Firestore() {
 
     return(
         <div>
-        <h1>Projects</h1>
-        <ul>
+        
+        <ul className='project-list'>
             {projects.map((project) => (
                 <li key={project.id}>
                     {project.name}
