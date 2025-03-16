@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1 className='title'>Firestore Project</h1>
-          <div className='cards'>
+          <div className='cardss'>
             <ul className='pro'></ul>
             <ul className='bio'></ul>
             <ul className='skills'></ul>
