@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Bio",
+        "des": "I am skilled software developer with three years of experience in frontend development and one year in site reliability engineering (SRE).Currently I have expanded my skills into SRE, where I focus on improving system reliability, performance, and scalability. I work with cloud infrastructure,  monitoring tools, and automation to ensure high availability of critical services.My expertise lies in building responsive and user-friendly web applications, ensuring seamless user experiences across different devices and platforms.",
+        "images":"/images/girl1.png"
+    },
+    {
+
+        "id": 2,
+        "title": "Skills",
+        "des": "I have a strong command of modern frontend technologies, including React, nextjs, and JavaScript frameworks, graphql, cms and I focus on writing clean, maintainable code. My role in SRE involves optimizing deployments, handling incident response, and implementing best practices for system resilience. With a blend of frontend and SRE expertise, I bring a unique perspective in developing robust applications that are both user-centric and highly reliable.",
+        "images": "/images/code1.jpg"
+    },
+    {
+
+        "id": 3,
+        "title": "Projects",
+        "des": "This is a list of projects",
+        "images": "/images/project.jpg"
+    }
+    
+]
+
+
